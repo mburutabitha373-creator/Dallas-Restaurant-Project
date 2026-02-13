@@ -16,20 +16,30 @@
         </ul> 
         </header>   
         <section>
-            <h2>Reservation Making</h2> 
-            <form>
-                <label>Name:</label><br>
-                <input type="text" placeholder="Enter your name"><br><br>
-                <label>Email:</label><br>
-                <input type="email" placeholder="Enter your email"><br><br>
-                <label>Number of guests:</label><br>
-                <Input type="number"><br><br>
-                    <label>Date:</label><br>
-                    <input type="date"><br><br>
-                    
-                    <button type="submit">Book Now</button>
-            </form>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-        </section> 
+            <section>
+                <section>
+    <h2>Reservation Making</h2> 
+    <form id="reservationForm">
+        <label>Name:</label><br>
+        <input type="text" id="resName" placeholder="Enter your name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="resEmail" placeholder="Enter your email"><br><br>
+
+        <label>Number of guests:</label><br>
+        <input type="number" id="resGuests"><br><br>
+
+        <label>Date:</label><br>
+        <input type="date" id="resDate"><br><br>
+
+        <button type="submit">Book Now</button>
+        <p id="resError" class="error-msg"></p>
+    </form>
+</section>
+   
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+         
         <section>
             <h2>Our Location</h2>
             <p>Kilimani,Nairobi</p>
