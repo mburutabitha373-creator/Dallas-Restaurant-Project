@@ -1,107 +1,65 @@
-
-# Dallas Restaurant Website
-
-## Project Overview
-This is a simple restaurant website made from **HTML,
-CSS, and Javascript,Github is also included.
-It consits of three html pages:
-
-1. **Home Page ('index.html')**-It is the welcome section,reasons to chose the restaurant and opening hours.
-2. **Menu Page ('menu.html')**-It entails the main dishes MENU with description and photos.
-3. **Contact Page ('contact.htnl')**-reservation form,contact information,and list of all bookings.
-
-The website uses **prototypes** and **local storage**in Javascript to store and manage
-reservation.
-
-
-
-All pages share one  **CSS file** for adequate styling.
-
-## Home page
-- Hero section with welcome message and also a photo of the restaurant.
-- "Reserve a Table" button with Javascript alert.
-- Opening hours it written clearly.
-- Footer across all pages.
-
-## Menu Page
-- Photos of the dishes we have.
-- Description of each meal listed.
-- Footer across all pages.
-
-## Contact Page
--Reservation form that has:
-    -Name,Email,Number of guests and Date.
--Saves bookings in **localStorage**
--Shows a **list of reservation**.
--Footer across all pages.
-
-## Technologies Used
--**HTMLS** -structure of the pages.
-**CSS** -styling all pages.
-**Javascript**-interractive features,prototypes and localstorage.
-**Github** -to push and commit my files.
-
-## How  to use
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Author 
-**Tabitha Mumbua  Mburu.**
-
-
-# Dallas Restaurant Website
+ Dallas Restaurant Website
 
 ## Project Overview
-This is a simple restaurant website made from **HTML,
-CSS, and Javascript,Github is also included.
-It consits of three html pages:
+This is a simple restaurant website built using **HTML, CSS, and JavaScript**.  
+It allows users to:
 
-1. **Home Page ('index.html')**-It is the welcome section,reasons to chose the restaurant and opening hours.
-2. **Menu Page ('menu.html')**-It entails the main dishes MENU with description and photos.
-3. **Contact Page ('contact.htnl')**-reservation form,contact information,and list of all bookings.
+- View the restaurant’s menu.
+- Make reservations using a contact form.
+- See a list of all reservations stored in the browser.
 
-The website uses **prototypes** and **local storage**in Javascript to store and manage
-reservation.
+The website demonstrates **DOM manipulation**, **event handling**, **form validation**, and **localStorage** usage.  
 
+---
 
+## Pages
 
-All pages share one  **CSS file** for adequate styling.
+1. **Home Page (`index.html`)**  
+   - Welcome message and hero image.  
+   - "Reserve a Table" button.  
+   - Opening hours.  
 
-## Home page
-- Hero section with welcome message and also a photo of the restaurant.
-- "Reserve a Table" button with Javascript alert.
-- Opening hours it written clearly.
-- Footer across all pages.
+2. **Menu Page (`menu.html`)**  
+   - Photos and descriptions of main dishes.  
 
-## Menu Page
-- Photos of the dishes we have.
-- Description of each meal listed.
-- Footer across all pages.
+3. **Contact Page (`contact.html`)**  
+   - Reservation form with:
+     - Name, Email, Number of Guests, Date.  
+   - Form validation and error messages.  
+   - Saves reservations to **localStorage**.  
+   - Displays all bookings dynamically.  
 
-## Contact Page
--Reservation form that has:
-    -Name,Email,Number of guests and Date.
--Saves bookings in **localStorage**
--Shows a **list of reservation**.
--Footer across all pages.
+All pages share a single **CSS file** for styling.
+
+---
 
 ## Technologies Used
--**HTMLS** -structure of the pages.
-**CSS** -styling all pages.
-**Javascript**-interractive features,prototypes and localstorage.
-**Github** -to push and commit my files.
+- **HTML** – Page structure.  
+- **CSS** – Styling.  
+- **JavaScript** – Interactivity, DOM manipulation, form validation, localStorage.  
+- **GitHub** – Version control and hosting with GitHub Pages.
 
-## How  to use
+---
+
+## How to Use
+1. Open `index.html` in a browser to view the website.  
+2. Go to **Menu** to see dishes.  
+3. Go to **Contact** to make a reservation.  
+   - Fill all fields correctly.  
+   - Click "Book Now" to save your reservation.  
+   - Reservations are saved in the browser and displayed below the form.
+
+---
+
+## Notes
+- Comments are added in the JavaScript to explain important sections.  
+- The website works both locally and when hosted via GitHub Pages.  
+
+---
+
+## Author
+**Tabitha Mumbua Mburu**  
+- GitHub: [mburutabitha373-creator](https://github.com/mburutabitha373-creator)
 
 
 
@@ -115,8 +73,13 @@ All pages share one  **CSS file** for adequate styling.
 
 
 
-## Author 
-**Tabitha Mumbua  Mburu.**
+
+
+
+
+
+
+
 
 
 
