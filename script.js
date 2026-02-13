@@ -19,10 +19,8 @@ function showMessage() {
 // Contact form validation & Save to localStorage
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("reservationForm");
-    
-
     const errorMsg = document.getElementById("resError");
-
+});
     form.addEventListener("submit", function(e) {
         e.preventDefault();
 
@@ -62,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Clear the form
         form.reset();
     });
-=======
+
 
 // Reservation table button
 function showMessage() {
@@ -125,6 +123,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Clear the form
         form.reset();
-    });
+        
+});
 
 });
+    
+
